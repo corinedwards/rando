@@ -1,9 +1,7 @@
-document.addEventListener("DOMContentLoaded", function() {
-  const randomNumber = Math.floor(Math.random() * 10); // 0 to 9
-  const imgElement = document.getElementById('random-image');
-
-  if (imgElement) {
-    console.log(`Setting image to: img0${randomNumber}.png`);
-    imgElement.src = `https://raw.githubusercontent.com/corinedwards/rando/main/img0${randomNumber}.png`;
-  }
-});
+{
+  "name": "Random Header Image",
+  "version": "1.0",
+  "author": "Your Name",
+  "description": "Replaces the header image with one of several random images.",
+  "includes": ["random-image.js"]
+}
