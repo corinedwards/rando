@@ -1,0 +1,7 @@
+{
+  "name": "Random Header Image",
+  "version": "1.0",
+  "author": "Your Name",
+  "description": "Replaces the header image with one of several random images.",
+  "includes": ["random-image.js"]
+}
