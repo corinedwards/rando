@@ -1,7 +1,8 @@
-{
-  "name": "Random Header Image",
-  "version": "1.0",
-  "author": "Your Name",
-  "description": "Replaces the header image with one of several random images.",
-  "includes": ["random-image.js"]
-}
+document.addEventListener("DOMContentLoaded", function() {
+  const randomNumber = Math.floor(Math.random() * 10); // 0 to 9
+  const imgElement = document.getElementById('random-image');
+  
+  if (imgElement) {
+    imgElement.src = `${window.location.origin}/plugins/your-plugin-folder/img0${randomNumber}.png`;
+  }
+});
