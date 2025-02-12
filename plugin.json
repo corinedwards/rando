@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const imgElement = document.getElementById('random-image');
 
   if (imgElement) {
+    console.log(`Setting image to: img0${randomNumber}.png`);
     imgElement.src = `https://raw.githubusercontent.com/corinedwards/rando/main/img0${randomNumber}.png`;
   }
 });
